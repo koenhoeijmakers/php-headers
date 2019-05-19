@@ -1,0 +1,21 @@
+{
+    "name": "koenhoeijmakers/headers",
+    "description": "A header collection support library.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Koen Hoeijmakers",
+            "email": "koen@hoeijmakers.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KoenHoeijmakers\\Headers\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">= 7.0"
+    }
+}
